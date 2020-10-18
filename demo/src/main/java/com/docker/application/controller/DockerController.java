@@ -11,6 +11,6 @@ public class DockerController {
 	@GetMapping("/getMessage")
 	public String getMessage() {
 		
-		return "Hi Divya  How are you.....?";
+		return "Hello docker.?";
 	}
 }
