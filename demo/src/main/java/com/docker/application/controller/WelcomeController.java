@@ -22,6 +22,7 @@ public class WelcomeController {
     		 "Would be missing  you chat in jabber", 
     		 "Stay safe and healthy, try not being an potato", "We will be a friends series mate forever", "Byeeeee buddyyyyy tc");
 
+    
     @GetMapping("/messageFromEddie")
     public String main(Model model) {
         model.addAttribute("message", message);
